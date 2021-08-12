@@ -9,3 +9,5 @@ IdentityFile ~/.ssh/id_rsa
 Port 443
 ```
 git pull 
+
+$ git pull --rebase origin master
