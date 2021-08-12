@@ -1,0 +1,3 @@
+Cannot rebase: Your index contains uncommitted changes.
+Please commit or stash them.
+

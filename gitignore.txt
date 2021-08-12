@@ -1,0 +1,21 @@
+git config --global core.excludesfile ~/.gitignore_global
+
+(py37) dn@SSD-Panson:~$ !4191
+cat ~/.gitignore_global
+__pycache__/
+/wandb/
+*.swp
+
+cat ~/.gitconfig 
+[http]
+    # proxy = http://127.0.0.1:1081
+    proxy = socks5://127.0.0.1:1080
+[https]
+    # proxy = https://127.0.0.1:1081
+    proxy = socks5://127.0.0.1:1080
+[user]
+	email = 754406193@qq.com
+	name = Ding Ning
+[core]
+	excludesfile = /home/dn/.gitignore_global
+
