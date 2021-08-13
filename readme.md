@@ -1,5 +1,3 @@
-git push origin master
-
 ```python
 Host github.com
 User email@qq.com  // 替换成自己的github登录邮箱
@@ -8,6 +6,3 @@ PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_rsa
 Port 443
 ```
-git pull 
-
-$ git pull --rebase origin master
