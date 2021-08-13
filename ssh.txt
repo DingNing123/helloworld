@@ -1,0 +1,11 @@
+(py37) dn@SSD-Panson:~$ cat ~/.ssh/config 
+Host github.com
+User 754406193@qq.com
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+Port 443
+
+(py37) dn@SSD-Panson:~$ ls ~/.ssh
+config  id_rsa  id_rsa.pub  known_hosts
+
